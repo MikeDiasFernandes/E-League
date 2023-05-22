@@ -196,3 +196,9 @@ nav ul li.btn:hover a{
 .image img{
     height: 100%;
 }
+@media screen and (max-width: 768px){
+    body{
+        width: 100%;
+        flex-direction: column;
+    }
+}
